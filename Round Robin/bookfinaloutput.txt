@@ -1,0 +1,644 @@
+Initiating....
+Enter no of process you want to spawn initially
+Enter Arrival time : 
+Enter service time : 
+Spawning Process#0
+
+
+Enter Arrival time : 
+Enter service time : 
+Spawning Process#1
+
+
+Enter Arrival time : 
+Enter service time : 
+Spawning Process#2
+
+
+Enter Arrival time : 
+Enter service time : 
+Spawning Process#3
+
+
+Enter Arrival time : 
+Enter service time : 
+Spawning Process#4
+
+
+Process spawning complete
+Insert the time slice for Round Robin : 
+Displaying The initial list : 
+Process #0 Total service time is : 3
+Process #1 Total service time is : 6
+Process #2 Total service time is : 4
+Process #3 Total service time is : 5
+Process #4 Total service time is : 2
+Total execution time is 20 units of time.
+Starting Execution...
+Process#0 intime is 0
+Execution time is : 0
+Process is arrived.
+Starting insertion of 0 with service time 3
+Process#0 inserted in to the queue.
+Sending process#0 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #0 with time serviced already is 0
+Process #0 Total service time : 3
+Total service time required by process#0is : 3
+serviced time : 0
+Service remaining.
+Executed Process#0 at execution time 1
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+Process#0 intime is 0
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+Process#0 inserted in to the queue.
+Sending process#0 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #0 with time serviced already is 1
+Process #0 Total service time : 3
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+Executed Process#0 at execution time 2
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+Process#0 intime is 0
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 2
+Process is arriving for first time.
+Process#1 inserted in to the queue.
+Process#2 intime is 4
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+Process#0 inserted in to the queue.
+Sending process#1 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #1 with time serviced already is 0
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 0
+Service remaining.
+Executed Process#1 at execution time 3
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+Process#0 intime is 0
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+Process#1 inserted in to the queue.
+Sending process#0 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #0 with time serviced already is 2
+Process #0 Total service time : 3
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+Executed Process#0 at execution time 4
+Total service time required by process#0is : 3
+serviced time : 3
+Service complete.
+Process#0 intime is 0
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 4
+Process is arriving for first time.
+Process#2 inserted in to the queue.
+Process#3 intime is 6
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Total service time required by process#0is : 3
+serviced time : 3
+Service complete.
+Sending process#1 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #1 with time serviced already is 1
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+Executed Process#1 at execution time 5
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+Process#0 intime is 0
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+Process#1 inserted in to the queue.
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 0
+Process #2 Total service time : 4
+Total service time required by process#2is : 4
+serviced time : 0
+Service remaining.
+Executed Process#2 at execution time 6
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+Process#0 intime is 0
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 6
+Process is arriving for first time.
+Process#3 inserted in to the queue.
+Process#4 intime is 8
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+Process#2 inserted in to the queue.
+Sending process#1 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #1 with time serviced already is 2
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+Executed Process#1 at execution time 7
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+Process#0 intime is 0
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+Process#1 inserted in to the queue.
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 0
+Process #3 Total service time : 5
+Total service time required by process#3is : 5
+serviced time : 0
+Service remaining.
+Executed Process#3 at execution time 8
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+Process#0 intime is 0
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 8
+Process is arriving for first time.
+Process#4 inserted in to the queue.
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+Process#3 inserted in to the queue.
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 1
+Process #2 Total service time : 4
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+Executed Process#2 at execution time 9
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+Process#0 intime is 0
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+Process#2 inserted in to the queue.
+Sending process#1 for processing.
+Now in top of queue is : Process#4
+Starting processing of Process #1 with time serviced already is 3
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+Executed Process#1 at execution time 10
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+Process#0 intime is 0
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+Process#1 inserted in to the queue.
+Sending process#4 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #4 with time serviced already is 0
+Process #4 Total service time : 2
+Total service time required by process#4is : 2
+serviced time : 0
+Service remaining.
+Executed Process#4 at execution time 11
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+Process#0 intime is 0
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+Process#4 inserted in to the queue.
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 1
+Process #3 Total service time : 5
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+Executed Process#3 at execution time 12
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+Process#0 intime is 0
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+Process#3 inserted in to the queue.
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 2
+Process #2 Total service time : 4
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+Executed Process#2 at execution time 13
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+Process#0 intime is 0
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+Process#2 inserted in to the queue.
+Sending process#1 for processing.
+Now in top of queue is : Process#4
+Starting processing of Process #1 with time serviced already is 4
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+Executed Process#1 at execution time 14
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+Process#0 intime is 0
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+Process#1 inserted in to the queue.
+Sending process#4 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #4 with time serviced already is 1
+Process #4 Total service time : 2
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+Executed Process#4 at execution time 15
+Total service time required by process#4is : 2
+serviced time : 2
+Service complete.
+Process#0 intime is 0
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Total service time required by process#4is : 2
+serviced time : 2
+Service complete.
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 2
+Process #3 Total service time : 5
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+Executed Process#3 at execution time 16
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+Process#0 intime is 0
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+Process#3 inserted in to the queue.
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 3
+Process #2 Total service time : 4
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+Executed Process#2 at execution time 17
+Total service time required by process#2is : 4
+serviced time : 4
+Service complete.
+Process#0 intime is 0
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Total service time required by process#2is : 4
+serviced time : 4
+Service complete.
+Sending process#1 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #1 with time serviced already is 5
+Process #1 Total service time : 6
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+Executed Process#1 at execution time 18
+Total service time required by process#1is : 6
+serviced time : 6
+Service complete.
+Process#0 intime is 0
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Total service time required by process#1is : 6
+serviced time : 6
+Service complete.
+Sending process#3 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #3 with time serviced already is 3
+Process #3 Total service time : 5
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+Executed Process#3 at execution time 19
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+Process#0 intime is 0
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+Process#3 inserted in to the queue.
+Sending process#3 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #3 with time serviced already is 4
+Process #3 Total service time : 5
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+Executed Process#3 at execution time 20
+Total service time required by process#3is : 5
+serviced time : 5
+Service complete.
+Process#0 intime is 0
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Process#1 intime is 2
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Process#2 intime is 4
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Process#3 intime is 6
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Process#4 intime is 8
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Total service time required by process#3is : 5
+serviced time : 5
+Service complete.
+Queue is Empty
+Process finished executing or no process to execute at Execution time : 21
+Execution complete!

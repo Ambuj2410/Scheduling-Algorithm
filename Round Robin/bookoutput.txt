@@ -1,0 +1,891 @@
+Initiating....
+Enter no of process you want to spawn initially
+Enter service time : 
+Enter in-time : 
+Spawning Process #0
+
+
+Enter service time : 
+Enter in-time : 
+Spawning Process #1
+
+
+Enter service time : 
+Enter in-time : 
+Spawning Process #2
+
+
+Enter service time : 
+Enter in-time : 
+Spawning Process #3
+
+
+Enter service time : 
+Enter in-time : 
+Spawning Process #4
+
+
+Process spawning complete
+process inserted in Queue
+Insert the time slice for Round Robin : 
+Starting Round Robin scheduling
+Displaying
+Process #0 Total service time is : 3
+Process #1 Total service time is : 6
+Process #2 Total service time is : 4
+Process #3 Total service time is : 5
+Process #4 Total service time is : 2
+Total execution time is 20 units of time.
+Starting Execution...
+Spawning Process #0
+Entering in to IsArrived boolean method
+Process#0 intime is 0
+Execution time is : 0
+Process is arrived.
+Starting insertion of 0 with service time 3
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #0
+Entering in to if
+Process#0 inserted in to the queue
+Inserted Process#0
+coming in to countnodes
+completing counting nodes
+Sending process#0 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #0 with time serviced already is 				0
+Process #0 Total service time : 3
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 0
+Service remaining.
+Executed Process#0 at execution time 1
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 1
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #0
+Process#0 inserted in to the queue
+Inserted Process#0
+coming in to countnodes
+completing counting nodes
+Sending process#0 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #0 with time serviced already is 				1
+Process #0 Total service time : 3
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 1
+Service remaining.
+Executed Process#0 at execution time 2
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 2
+Process is arriving for first time.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+inserting process#1
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 2
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #0
+Process#0 inserted in to the queue
+Inserted Process#0
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #1 with time serviced already is 				0
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 0
+Service remaining.
+Executed Process#1 at execution time 3
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 3
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+Inserted Process#1
+coming in to countnodes
+completing counting nodes
+Sending process#0 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #0 with time serviced already is 				2
+Process #0 Total service time : 3
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 2
+Service remaining.
+Executed Process#0 at execution time 4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 3
+Service complete.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 4
+Process is arriving for first time.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #2
+Process#2 inserted in to the queue
+inserting process#2
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 4
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#0is : 3
+serviced time : 3
+Service complete.
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #1 with time serviced already is 				1
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 1
+Service remaining.
+Executed Process#1 at execution time 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 5
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+Inserted Process#1
+coming in to countnodes
+completing counting nodes
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 				0
+Process #2 Total service time : 4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 0
+Service remaining.
+Executed Process#2 at execution time 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 6
+Process is arriving for first time.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #3
+Process#3 inserted in to the queue
+inserting process#3
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 6
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #2
+Process#2 inserted in to the queue
+Inserted Process#2
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #1 with time serviced already is 				2
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 2
+Service remaining.
+Executed Process#1 at execution time 7
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 7
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+Inserted Process#1
+coming in to countnodes
+completing counting nodes
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 				0
+Process #3 Total service time : 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 0
+Service remaining.
+Executed Process#3 at execution time 8
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 8
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 8
+Process is arriving for first time.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #4
+Process#4 inserted in to the queue
+inserting process#4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #3
+Process#3 inserted in to the queue
+Inserted Process#3
+coming in to countnodes
+completing counting nodes
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 				1
+Process #2 Total service time : 4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 1
+Service remaining.
+Executed Process#2 at execution time 9
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 9
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #2
+Process#2 inserted in to the queue
+Inserted Process#2
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#4
+Starting processing of Process #1 with time serviced already is 				3
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 3
+Service remaining.
+Executed Process#1 at execution time 10
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 10
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+Inserted Process#1
+coming in to countnodes
+completing counting nodes
+Sending process#4 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #4 with time serviced already is 				0
+Process #4 Total service time : 2
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 0
+Service remaining.
+Executed Process#4 at execution time 11
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 11
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #4
+Process#4 inserted in to the queue
+Inserted Process#4
+coming in to countnodes
+completing counting nodes
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 				1
+Process #3 Total service time : 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 1
+Service remaining.
+Executed Process#3 at execution time 12
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 12
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #3
+Process#3 inserted in to the queue
+Inserted Process#3
+coming in to countnodes
+completing counting nodes
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 				2
+Process #2 Total service time : 4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 2
+Service remaining.
+Executed Process#2 at execution time 13
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 13
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #2
+Process#2 inserted in to the queue
+Inserted Process#2
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#4
+Starting processing of Process #1 with time serviced already is 				4
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 4
+Service remaining.
+Executed Process#1 at execution time 14
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 14
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #1
+Process#1 inserted in to the queue
+Inserted Process#1
+coming in to countnodes
+completing counting nodes
+Sending process#4 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #4 with time serviced already is 				1
+Process #4 Total service time : 2
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 1
+Service remaining.
+Executed Process#4 at execution time 15
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 2
+Service complete.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 15
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#4is : 2
+serviced time : 2
+Service complete.
+coming in to countnodes
+completing counting nodes
+Sending process#3 for processing.
+Now in top of queue is : Process#2
+Starting processing of Process #3 with time serviced already is 				2
+Process #3 Total service time : 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 2
+Service remaining.
+Executed Process#3 at execution time 16
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 16
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #3
+Process#3 inserted in to the queue
+Inserted Process#3
+coming in to countnodes
+completing counting nodes
+Sending process#2 for processing.
+Now in top of queue is : Process#1
+Starting processing of Process #2 with time serviced already is 				3
+Process #2 Total service time : 4
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 3
+Service remaining.
+Executed Process#2 at execution time 17
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 4
+Service complete.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 17
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#2is : 4
+serviced time : 4
+Service complete.
+coming in to countnodes
+completing counting nodes
+Sending process#1 for processing.
+Now in top of queue is : Process#3
+Starting processing of Process #1 with time serviced already is 				5
+Process #1 Total service time : 6
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 5
+Service remaining.
+Executed Process#1 at execution time 18
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 6
+Service complete.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 18
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#1is : 6
+serviced time : 6
+Service complete.
+coming in to countnodes
+completing counting nodes
+Sending process#3 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #3 with time serviced already is 				3
+Process #3 Total service time : 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 3
+Service remaining.
+Executed Process#3 at execution time 19
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 19
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+coming into insert
+coming in to countnodes
+completing counting nodes
+Spawning Process #3
+Process#3 inserted in to the queue
+Inserted Process#3
+coming in to countnodes
+completing counting nodes
+Sending process#3 for processing.
+Now in top of queue is : Process#0
+Starting processing of Process #3 with time serviced already is 				4
+Process #3 Total service time : 5
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 4
+Service remaining.
+Executed Process#3 at execution time 20
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 5
+Service complete.
+Entering into insertArrivedProcess method
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#1 intime is 2
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#2 intime is 4
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#3 intime is 6
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Entering in to checkIfProcessArriveForFirstTime boolean method
+Process#4 intime is 8
+Execution time is : 20
+process in not arrived or may have arrived earlier.
+Entering in to IsServiceComplete boolean method
+Total service time required by process#3is : 5
+serviced time : 5
+Service complete.
+coming in to countnodes
+completing counting nodes
+Queue is Empty
+Process finished executing or no process to execute
+Execution complete!
